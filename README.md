@@ -20,16 +20,16 @@ This is a **Pytorch** implementations of *"HITNet: Hierarchical Iterative Tile R
     pip install ./ext_op
     ```
 
-2) Replace dataset path in **script/plane_fitting.py** and **train.py**
+2) Replace dataset path in **preprocess/plane_fitting.py** and **script/hitnet_sf_finalpass.sh**
 
 3) Robust plane fitting 
     ```
-    python script/plane_fitting.py
+    python preprocess/plane_fitting_sf.py
     ```
 
 2) Training
     ```shell 
-    sh script/train_hitnet_sf_fly3d_only.sh
+    bash script/hitnet_sf_finalpass.sh
     ```
 
 ### Evaluation
